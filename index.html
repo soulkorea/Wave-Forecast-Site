@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Seize The Wave</title>
+
+    <link rel="stylesheet" href="css/styles.css" media="screen" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="garfieldwave-20140923-favicon.ico">
+
+</head>
+
+<body>
+
+<div id="header">
+Should you surf today, brah?
+</div>
+
+
+<h1>Carpe Diem Unda...seize the wave (today).</h1>
+
+
+<div id="date">
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = Date();
+</script>
+</div>
+
+
+<div id="menu">
+Choose your beach ->
+<select id="location" name="location">
+	<option value="383">Long Beach (NY)</option>
+	<option value="384">Rockaways</option>
+	<option value="2159">Ditch Plains</option>
+	<option value="367">Long Sands</option>
+	<option value="822">Deal</option>
+	<option value="2534">Wilderness</option>
+	<option value="445">Nosara</option>
+</select>
+
+</div>
+
+
+
+
+<div id="morn">
+<div>
+<h2>Morning:</h2>
+	<div id="airtemp"><span id="mornTemp"></span>&deg; F</div>
+	<div id="waveheight">
+<span id="mornMinBH"></span> - <span id="mornMaxBH"></span> ft at <span id="mornPeriod"></span>s, <span id="mornSwelldirection"></span><br>
+	</div>
+	<div id="windspeed">
+<span id="mornWindspeed"></span> mph <span id="mornWinddirection"></span>
+	</div>
+</div>
+	<div class="container">
+
+	<div class="secondcontainer">
+	</div>
+		<div class="thirdcontainer">
+
+		</div>
+
+</div>
+</div>
+
+<div id="noon">
+<div>
+<h2>Noon: </h2>
+	<div id="airtemp">
+	<span id="noonTemp"></span>&deg; F</div>
+	<div id="waveheight">
+<span id="noonMinBH"></span> - <span id="noonMaxBH"></span> ft at <span id="noonPeriod"></span>s, <span id="noonSwelldirection"></span><br>
+	</div>
+
+	<div id="windspeed">
+<span id="noonWindspeed"></span> mph <span id="noonWinddirection"></span>
+	</div>
+</div>
+	<div class="container">
+
+		<div class="secondcontainer">
+		</div>
+		
+		<div class="thirdcontainer">
+		</div>
+	</div>
+
+</div>
+
+
+<div id="eve">
+
+<div>
+<h2>Evening:</h2>
+	<div id="airtemp"><span id="eveTemp"></span>&deg; F</div>
+	<div id="waveheight">
+<span id="eveMinBH"></span> - <span id="eveMaxBH"></span> ft at <span id="evePeriod"></span>s, <span id="eveSwelldirection"></span><br>
+	</div>
+
+	<div id="windspeed">
+<span id="eveWindspeed"></span> mph <span id="eveWinddirection"></span>
+	</div>
+</div>
+	
+
+	<div class="container">
+
+		<div class="secondcontainer">
+		</div>
+		
+		<div class="thirdcontainer">
+		</div>
+	</div>
+</div>
+
+
+<!--
+	<div class="container">
+
+		<div class="secondcontainer">
+		</div>
+		
+		<div class="thirdcontainer">
+		</div>
+	</div>
+</div>
+-->
+
+
+
+
+
+<div id="footer">
+All data from <a href="http://www.magicseaweed.com">Magicseaweed</a>
+</div>
+
+ <script src='http://code.jquery.com/jquery-latest.min.js'></script>
+
+ <script src="js/main.js"></script>
+</body>
+
+</html>
