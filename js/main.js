@@ -122,7 +122,7 @@ var waveHeight;
           waveHeight="60px";
         } else if( ( maxHeight >= 5 )&& (maxHeight < 6 )){
           waveHeight="35px";
-        } else if( ( maxHeight >= 7 )&& (maxHeight < 7 )){
+        } else if( ( maxHeight >= 6 )&& (maxHeight < 7 )){
           waveHeight="10px";
         }
 
