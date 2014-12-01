@@ -112,7 +112,7 @@ var waveHeight;
 
 /* for Garfield */
 
-   if (maxHeight <= 2) {
+if (maxHeight <= 2) {
           waveHeight="100px";
         } else if( ( maxHeight >= 2 )&& (maxHeight < 3 )){
           waveHeight="90px";
@@ -123,7 +123,11 @@ var waveHeight;
         } else if( ( maxHeight >= 5 )&& (maxHeight < 6 )){
           waveHeight="35px";
         } else if( ( maxHeight >= 6 )&& (maxHeight < 7 )){
-          waveHeight="10px";
+          waveHeight="20px";
+        } else if( ( maxHeight >= 7 )&& (maxHeight < 8 )){
+          waveHeight="10px";  
+        } else if( ( maxHeight >= 8 )&& (maxHeight < 9 )){
+          waveHeight="5px";  
         }
 
 
